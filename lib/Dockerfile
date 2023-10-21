@@ -1,5 +1,5 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/Cola2007/cola /root/moxie 
+RUN git clone https://github.com/Cola2007/akila /root/moxie 
 WORKDIR /root/moxie/
 RUN npm install npm@latest
 RUN npm install
